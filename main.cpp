@@ -1,13 +1,16 @@
-#include<stdio.h>
+#include <stdio>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main() {
+	
+     float metre,mile,km;
 
-    float Fahrenheit, Celsius;
-    printf("veuillez entrer la temperature en Fahrenheit");
-    scanf("%f",&Fahrenheit);
-    Celsius = (Fahrenheit - 32 ) /  1.8;
-     printf("%.2f Fahrenheit= %.2f Celsius", Fahrenheit , Celsius );
+     printf("veuillez entrer la distance en metre");
+     scanf("%f",&metre);
+     mile = km*1.609;
+     km = mile/1.609;
+     metre =mile/1609;
+     printf("%.3f metre = %.3f mile ",mile, metre );
 	return 0;
 }
